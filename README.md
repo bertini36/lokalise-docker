@@ -14,6 +14,7 @@ input and output css files in the command tag.
     image: bertini36/lokalise
     volumes:
       - ".:/code/"
+    working_dir: /code/
 ```
 
 Then for download translations
